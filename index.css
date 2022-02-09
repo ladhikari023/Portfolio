@@ -108,8 +108,10 @@ nav a{
 }
 
 .landing-part{
+    width: 80%;
+    height: 40%;
+    margin: auto auto;
     display: flex;
-    margin-top: 5%;
 }
 
 .welcome-profile{
@@ -190,15 +192,14 @@ nav a{
     border: 1px solid orange;
 
 }
-@media screen and (min-width:1480px){
-    .landing-part{
-        margin-top: 8%;
-    }
-}
 @media screen and (min-width:815px){
     .profile-picture-background:hover{
         transform: scale(1.07);
         transition: 1s ease-out;
+    }
+    .landing-part{
+        position: absolute;
+        top: 25%;
     }
 }
 @media only screen and (max-width:815px){
@@ -264,6 +265,9 @@ nav a{
         width: 250px;
         height: 250px;
         bottom: -120px;
+    }
+    .landing-part{
+        margin: 10% 0 0 10%;
     }
 }
 
