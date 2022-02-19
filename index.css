@@ -344,7 +344,7 @@ nav a{
 .experience ul li{
     margin: 0 0 20px 0;
 }
-.teaching-exp, .data-exp{
+.teaching-exp,.intern-exp, .data-exp{
     margin-bottom: 30px;
 }
 
